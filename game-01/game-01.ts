@@ -18,6 +18,9 @@ const findSumValues = (M: number[], N: number): number[] | string => {
   return "No two values sum to N";
 };
 
+/**
+ ************ Function Test ************
+ */
 const M = Array.from({ length: 1e5 }, () => Math.floor(Math.random() * 1e5));
 const N = 1e5;
 
